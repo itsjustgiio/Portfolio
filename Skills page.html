@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        * {
+                box-sizing: border-box;
+        }
+        .row {
+                display: flex;
+        }
+        .left {
+                flex: 15%;
+                padding: 15px 0px;
+        }
+
+        .left h2 {
+                padding-left: 8px;
+        }
+        .right{
+            flex: 90%;
+            padding: 15px;
+            text-align: center;
+        }
+        #skillMenu{
+            list-style-type: style type none;
+            padding: 0px;
+            border: 1px solid black;
+            font-size: xx-large;
+        }
+        #skillMenu li a{
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        #skillMenu li a:hover{
+            background-color: grey;
+        }
+    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style Sheet for Website.css">
+    <body>
+        <header id="header">
+            <div class="topnav">
+                <a class="menu" href="Contact.html">Contact</a>
+                <a class="menu" href="Experience page.html">Experience</a>
+                <a class="menu" href="Skills page.html">Portfolio</a>
+                <a class="menu" href="home.html">Home</a>
+                <a class="title">Giovanni Carrion</a>
+            </div>
+
+        </header>
+        <main>
+            <h1>Portfolio</h1><!-- Eventually RANK THEM; ie rank with which one is the most comfortable, as of rn HTML #1.-->
+
+            <div class="row">
+                <div class="left">
+                    <h2>Languages:</h2>
+                    <ul id="skillMenu">
+                        <li><a href="HTML page.html">HTML</a></li>
+                        <li><a href="Java page.html">Java</a></li>
+                        <li><a href="Python page.html">Python</a></li>
+                        <li><a href="R Studio Page.html">R Project</a></li>
+                        <li><a href="C++ page.html">C++</a></li>
+                    </ul>  
+            </div>
+
+            <div class="right" style="background-color: inherit;">
+                <!--WRITE ABOTU HOW I STARTED WHY AND HOW LONG-->
+                <p>A list of the programs I've used related to programming/coding. Listed with current, past experiences such as school related projects and out of school projects. All related works with languages.</p>
+        </div>      
+
+        </main>
+    </body>
+</html>

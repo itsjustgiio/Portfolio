@@ -72,3 +72,39 @@ npm install
 
 # Run the dev server
 npm run dev
+```
+
+## 🧱 Deployment
+
+This portfolio is hosted on **AWS Amplify** with a CI/CD pipeline connected to GitHub.  
+Every push to the `main` branch triggers an automatic rebuild and redeploy.
+
+---
+
+## 📬 Contact
+
+Let’s connect and build something amazing:
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/giovannicarrion/)
+- 💻 [GitHub](https://github.com/itsjustgiio)
+- 🌐 [Portfolio](https://giovannicarrion.dev)
+- ✉️ [Email](mailto:sl33p@gmail.com)
+
+---
+
+## 🏗️ Future Improvements
+
+- Add a blog section with Markdown-powered posts  
+- Integrate Cloudflare analytics and Amplify backend services  
+- Launch a “Projects Timeline” visualization with Framer Motion  
+- Add dark mode toggle with local storage state  
+
+---
+
+## 🧾 License
+
+This project is licensed under the **MIT License** — feel free to fork and adapt it for your own portfolio.
+
+---
+
+### *Designed & developed with ❤️ by Giovanni Carrion*

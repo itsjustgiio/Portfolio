@@ -8,8 +8,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: dist
-    baseDirectory: build      # 👈 was “dist”, change to “build”
+    baseDirectory: build # 👈 was “dist”, change to “build”
     files:
       - "**/*"
   cache:

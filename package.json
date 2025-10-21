@@ -1,6 +1,6 @@
 
   {
-      "name": "Portfolio Website for Giovanni",
+    "name": "portfolio-website-for-giovanni",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
